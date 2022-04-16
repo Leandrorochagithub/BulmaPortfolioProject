@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script refer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"></script> <!--Inside font-awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"> <!--Inside bulma -->
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="https://bulma.io">
+                        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                    </a>
+    
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+    
+                <div id="navbarBasicExample" class="navbar-menu is-active">
+<!--Is-active to make it apparent on mobile-->
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="/index.html">
+                            Home
+                        </a>
+    
+                        <a class="navbar-item" href="/contact.html">
+                            Contact
+                        </a>
+            </nav>
+        </div>
+    </header>
+<!--Begging column 1 Profile -->
+    <section>
+        <div class="container">
+            <div class="columns">
+                <div class="column is-3">
+                    <div class="card">
+                        <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                        </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-4">Leandro Rocha</p>
+                            <span class="tag is-dark is-medium">JavaScript FullStack Developer</span>
+<!--tag is-dark (color) is-medium (size)-->
+                                </div>
+                            </div>  
+
+                            <div class="content"><br>
+                            <p>(61) 9 9585-1446</p>
+                            <p>Leandro@Gmail.com</p>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+<!--Begging column 2 About me -->    
+                <div class="column is-9">
+                    <div class="content">
+                        <div class="card">
+                            <header class="card-header">
+                                <p class="card-header-title">About me</p>
+                                <button class="card-header-icon" aria-label="more options">
+                                    <span class="icon">
+                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                            </header>
+                            <div class="card-content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, nobis earum velit ea quae perspiciatis qui, enim vero dolores vel nulla non expedita quod labore blanditiis asperiores illum. Itaque, velit!</p>
+                            </div>
+                            </div>
+<!--Begging column 2 Experiences-->
+<div class="card">
+    <header class="card-header">
+        <p class="card-header-title">Experiences</p><br>
+        <button class="card-header-icon" aria-label="more options">
+            <span class="icon">
+                <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+        </button>
+    </header>
+    <div class="columns">
+        <div class="column is-3">
+            <figure class="image is-128x128">
+                <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+            </figure>
+        </div>
+
+        <div class="column is-9">
+            <p class="title is-3 <!--SIZE-->"><span class="tag is-dark is-large">X Company</span> JavaScript Developer</p> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit odio nemo dolores magnam saepe corrupti reiciendis perspiciatis deleniti eligendi aliquam voluptatibus, accusamus maxime suscipit officia, non sequi veritatis obcaecati ut?</p>
+        </div>
+        
+    </div>
+<br>
+    <div class="columns">
+        <div class="column is-3">
+            <figure class="image is-128x128">
+                <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+            </figure>
+        </div>
+
+        <div class="column is-9">
+            <p class="title is-3 <!--SIZE-->"> <span class="tag is-dark is-large">Y Company</span> Ruby on Rails Developer   </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit odio nemo dolores magnam saepe corrupti reiciendis perspiciatis deleniti eligendi aliquam voluptatibus, accusamus maxime suscipit officia, non sequi veritatis obcaecati ut?</p>
+        </div>
+        <br>
+    </div>
+</div><br>
+<!--Begging column 2 Formation-->
+<div class="card">
+    <header class="card-header">
+        <p class="card-header-title">Formation</p>
+        <button class="card-header-icon" aria-label="more options">
+            <span class="icon">
+                <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+        </button>
+    </header>
+    <div class="card-content">
+        <p class="title is-3"><span class="tag is-danger is-large">OneBitCode</span> JavaScript FullStack in 8 weeks</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, nobis earum velit ea quae perspiciatis qui, enim vero dolores vel nulla non expedita quod labore blanditiis asperiores illum. Itaque, velit!</p>
+    </div>
+    <div class="card-content">
+        <p class="title is-3"><span class="tag is-danger is-large">OneBitCode</span> HTML + CSS + BULMA</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, nobis earum velit ea quae perspiciatis qui, enim vero dolores vel nulla non expedita quod labore blanditiis asperiores illum. Itaque, velit!</p>
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
